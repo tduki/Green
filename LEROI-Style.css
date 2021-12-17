@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+body {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    margin: 0;
+}
+
+header {
+    background: linear-gradient(rgb(20, 20, 20), rgb(24, 5, 21));
+    height: 1000px;
+}
+header nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 5% 0 5%; 
+}
+header nav h1 {
+    margin: 0;
+    text-transform: uppercase;
+    color: #ff4b4b;
+    font-size: 30px;
+}
+header nav .onglets {
+    display: flex;
+    align-items: center;
+}
+header nav .onglets a {
+    text-decoration: none;
+}
+header nav .onglets p {
+    margin: 0 20px 0 0;
+    color: rgb(216, 216, 216);
+    font-size: 20px;
+    cursor: pointer;
+    transition: color 0.5s;
+}
+header nav .onglets p:hover {
+    color: white;
+}
+header nav .onglets button {
+    padding: 10px 15px;
+    margin-top: 5px;
+    border: 1px solid #ff4b4b;
+    background-color: inherit;
+    font-size: 20px;
+    color: #ff4b4b;
+    transition: background-color 0.5s, color 0.5s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+header nav .onglets button:hover {
+    background-color: #ff4b4b;
+    color: white;
+}
+.presentation {
+    padding: 0px 5%;
+    margin-top: 5%;
+    display: flex;   
+    justify-content: space-between;
+}
+.presentation .presentation_moi {
+    width: 100%;
+    flex-shrink: 3;
+}
+.presentation .presentation_moi h1 {
+    font-size: 4vw;
+    margin: 0;
+    width: 80%;
+    padding: 200px 10px 20px 0px;
+}
+.presentation .presentation_moi p {
+    font-weight: 300;
+    font-size: 30px;
+    color: rgb(207, 207, 207);
+    margin: 10px 0px;
+    padding-right: 50px;
+}
+.presentation .presentation_moi button {
+    margin-top: 30px;
+    padding: 10px 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #ff4b4b;
+    color: white;
+    border: 1px solid #ff4b4b;
+    transition: color 0.5s, background-color 0.5s;
+}
+.presentation .presentation_moi button:hover {
+    color: #ff4b4b;
+    background-color: inherit;
+}
+.presentation .image-presentation img {
+    width: 85%;
+    border-radius: 360px;
+
+}
+.second {
+    margin: 0;
+    background-color: #13181d;
+    display: flex;
+}
+.second .image-presentation img {
+    width: 65%;
+    margin: 50px 0 50px 100px;
+    border-radius: 5px;
+}
+.second .presentation_moi{
+    margin: 50px 100px 0 0;
+}
+.second .presentation_moi h1{
+    font-size: 3vw;
+}
+.second .presentation_moi p {
+    font-size: 25px;
+    font-weight: 300;
+}

@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+}
+nav {
+    display: flex;
+    background-color: #011c39;
+    justify-content: space-between;
+}
+nav .top {
+    display: flex;
+}
+nav .top h1{
+    color: #b3e59f;
+    padding-left: 5px;
+    padding-top: 15px;
+}
+nav .top img {
+    width: 7%;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+nav .onglet {
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+nav .onglet p {
+    color: white;
+    margin-right: 40px;
+    cursor: pointer;
+}
+nav .onglet p:hover {
+    color: rgb(161, 161, 161);
+}
+header .first{
+    padding: 50px 5%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between
+}
+.carre {
+    position: absolute;
+    width:500px;
+	height:570px;
+	background:#e3a663;
+    margin-left: 925px;
+    margin-top: -40px;
+}
+header .first img {
+    width: 60%;
+    padding-left: 50px;
+    z-index: 2
+}
+.first .ecomatelas {
+    padding-left: 80px;
+    padding-top: 80px
+}
+.first .ecomatelas h1 {
+    font-size: 50px;
+    color: #e3a663;
+    margin-bottom: 20px;
+}
+.first .ecomatelas p {
+    color: rgb(131, 131, 131);
+    font-weight: 400;
+}
+
+.first .ecomatelas button {
+   padding: 13px 40px;
+   background-color: #e3a663;
+   font-weight: 400;
+   border: none;
+   color: white;
+   margin-top: 20px;
+   cursor: pointer;
+   border: 2px solid #e3a663;
+   transition: color 0.8s, background-color 0.8s;
+}
+.first .ecomatelas button:hover {
+    background-color: inherit;
+    color: #e3a663;
+}
+header .deux {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 5%;
+    margin-top: 25%;
+}
+
+header .deux img {
+    width: 60%;
+    padding-left: 50px;
+    z-index: 2
+}
+
+.carre1 {
+    position: absolute;
+    width:500px;
+	height:570px;
+	background:#ff6c6c;
+    margin-left: 925px;
+    margin-top: -40px;
+}
+.deux .gepo {
+    padding-left: 80px;
+    padding-top: 80px
+}
+.deux .gepo h1{
+    font-size: 50px;
+    color: #ff6c6c;
+    margin-bottom: 20px;
+}
+.deux .gepo p {
+    color: rgb(131, 131, 131);
+    font-weight: 400;
+}
+.deux .gepo button {
+    padding: 13px 40px;
+    background-color: #ff6c6c;
+    font-weight: 400;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+    border: 2px solid #ff6c6c;
+    transition: color 0.8s, background-color 0.8s;
+ }
+.deux .gepo button:hover {
+    background-color: inherit;
+    color: #ff6c6c
+}
+footer {
+    background-color: #011c39;
+    padding: 25px 100px;
+    display: flex;
+    color: white;
+    margin-top: 150px;
+    font-size: 12px;
+}
+footer .premiere{
+    color: rgb(211, 211, 211);
+}
+footer .premiere img {
+    width: 10%;
+}
+footer .deuxieme {
+    margin-right: 200px;
+}
+footer .deuxieme p {
+    cursor: pointer;
+    transition: color 0.6s;
+    color: rgb(211, 211, 211);
+}
+footer .deuxieme p:hover{
+    color: rgb(255, 255, 255);
+}
+footer .troisieme p{
+    color: rgb(211, 211, 211);
+}
+body a {
+    text-decoration: none;
+}
+@media screen and (max-width: 1000px) {
+                    
+	.content-footer {
+		max-width: 100%;
+		flex-wrap: wrap;
+	}
+	.bloc {
+		flex-basis: auto;
+		margin: 20px 20px;
+	}
+
+
+}
